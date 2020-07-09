@@ -1,11 +1,6 @@
 spring:
   application:
     name: config
-#配置注册中心
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
 #数据库
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,6 +12,11 @@ eureka:
     port: 5672
     username: guest
     password: guest
+#配置注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 env:
    test66666
 girl:
